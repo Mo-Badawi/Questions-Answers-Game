@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<title>لعبة الأسئلة العميقة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>🎲 لعبة الأسئلة العميقة</h1>
+    <p class="subtitle">اختار التصنيف، وبعدين اكبس على الزر</p>
+
+    <div class="categories" id="categories"></div>
+
+    <div class="current-cat" id="currentCat"></div>
+    <div class="question-box">
+      <p id="questionText">اختار تصنيف واكبس "سؤال جديد" عشان تبدأ 👇</p>
+    </div>
+    <button class="main-btn" onclick="newQuestion()">سؤال جديد 🔄</button>
+    <div class="counter" id="counter"></div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

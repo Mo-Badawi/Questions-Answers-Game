@@ -1,0 +1,106 @@
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    font-family: 'Tahoma', 'Segoe UI', sans-serif;
+    padding: 20px;
+  }
+  .card {
+    background: #1e293b;
+    border-radius: 24px;
+    padding: 40px 30px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  h1 {
+    color: #f4b400;
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+  p.subtitle {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  .cat-btn {
+    background: #0f172a;
+    color: #cbd5e1;
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 9px 16px;
+    border-radius: 30px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-family: inherit;
+  }
+  .cat-btn:hover {
+    border-color: #f4b400;
+    color: #f4b400;
+  }
+  .cat-btn.active {
+    background: #f4b400;
+    color: #111827;
+    border-color: #f4b400;
+    font-weight: bold;
+  }
+  .question-box {
+    background: #0f172a;
+    border-radius: 16px;
+    padding: 30px 20px;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    border: 1px solid rgba(244,180,0,0.2);
+  }
+  .question-box p {
+    color: #e2e8f0;
+    font-size: 19px;
+    line-height: 1.7;
+    margin: 0;
+  }
+  button.main-btn {
+    background: #f4b400;
+    color: #111827;
+    border: none;
+    padding: 16px 40px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.15s, background 0.2s;
+    font-family: inherit;
+  }
+  button.main-btn:hover {
+    background: #ffc933;
+    transform: scale(1.03);
+  }
+  button.main-btn:active {
+    transform: scale(0.97);
+  }
+  .counter {
+    margin-top: 18px;
+    color: #64748b;
+    font-size: 13px;
+  }
+  .current-cat {
+    color: #f4b400;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
